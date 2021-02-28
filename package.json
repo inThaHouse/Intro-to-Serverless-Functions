@@ -1,0 +1,26 @@
+{
+  "name": "intro-to-serverless-functions",
+  "version": "1.0.0",
+  "description": "Code & Notes from a course in FrontendMasters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inThaHouse/Intro-to-Serverless-Functions.git"
+  },
+  "keywords": [],
+  "author": "Alan (inThaHouse)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inThaHouse/Intro-to-Serverless-Functions/issues"
+  },
+  "homepage": "https://github.com/inThaHouse/Intro-to-Serverless-Functions#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
