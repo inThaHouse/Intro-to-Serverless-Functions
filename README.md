@@ -34,3 +34,16 @@ This repo hosts code/notes taken from the course https://frontendmasters.com/cou
 - See `src/functions/echo.js` for an example of using query string parameters.
 - <a href='https://docs.netlify.com/functions/overview/' target='_blank'>Docs here</a> for serverless functions.
 </details>
+
+<details>
+  <summary>API Data</summary>
+
+- You can't see the source of your serverless function in the browser. So you can put secret keys there without trouble.
+- Node `url` module has some features to construct your url before doing api call. <a href='https://nodejs.org/api/url.html' target='_blank'>Docs here.</a>
+- `Promise.all` executes promises in parallel.
+- In local dev, `netlify dev` command will also detect your `.env` file and use it's value when necessary without further configuration.
+- `innerText` returns all text contained by an element and all its child elements. `innerHtml` returns all text, including html tags, that is contained by an element.
+- Hasura serverless functions docs <a href='https://hasura.io/docs/latest/graphql/core/event-triggers/serverless.html' target='_blank'>here</a>.
+- Check `src/admin.html` to see an example of the `FormData` browser api usage.
+
+</details>
