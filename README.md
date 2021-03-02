@@ -47,3 +47,10 @@ This repo hosts code/notes taken from the course https://frontendmasters.com/cou
 - Check `src/admin.html` to see an example of the `FormData` browser api usage.
 
 </details>
+
+<details>
+<summary>Database and Auth</summary>
+
+- In local dev, if the netlify button prompts a url, simply add the your site prod link.
+- https://docs.netlify.com/visitor-access/identity/
+</details>

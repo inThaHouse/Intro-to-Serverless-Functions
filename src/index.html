@@ -70,6 +70,11 @@
   </div>
 </template>
 
+<script
+  type="text/javascript"
+  src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+></script>
+
 <script>
   const addScores = (element, scores) => {
     scores.forEach((score) => {
@@ -91,7 +96,7 @@
     })
   }
 
-  async function initialize() {
+  const init = async () => {
     const movies = await fetch('/.netlify/functions/movies').then((response) =>
       response.json(),
     )
@@ -115,5 +120,5 @@
     })
   }
 
-  initialize()
+  init()
 </script>

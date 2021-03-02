@@ -31,16 +31,6 @@
     z-index: 10;
   }
 
-  .lwj-demo-header .logo {
-    display: block;
-    height: auto;
-    position: relative;
-    transform: rotate(-3deg);
-    transition: transform 250ms ease-out;
-    width: 55px;
-    z-index: 15;
-  }
-
   .lwj-demo-header .logo::after {
     background: var(--white);
     border: 1px solid var(--dark-gray);
@@ -58,23 +48,6 @@
     width: 230px;
   }
 
-  .lwj-demo-header .logo:active,
-  .lwj-demo-header .logo:focus,
-  .lwj-demo-header .logo:hover {
-    transform: rotate(0deg);
-  }
-
-  .lwj-demo-header .logo:active::after,
-  .lwj-demo-header .logo:focus::after,
-  .lwj-demo-header .logo:hover::after {
-    opacity: 1;
-  }
-
-  .lwj-demo-header .logo img {
-    display: block;
-    width: 100%;
-  }
-
   .lwj-demo-header .home-link {
     color: var(--white);
     font-size: 1rem;
@@ -83,12 +56,6 @@
     position: relative;
     text-decoration: none;
     z-index: 15;
-  }
-
-  .lwj-demo-header #canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
   }
 
   .lwj-demo-header .top-bar {
@@ -126,18 +93,7 @@
 
 <header class="lwj-demo-header">
   <div class="logo-wrapper">
-    <canvas id="canvas" width="300" height="56"></canvas>
-    <a href="https://www.learnwithjason.dev" class="logo"
-      ><img src="/images/learn-with-jason-dark.svg" alt="Learn With Jason"
-    /></a>
     <a href="/" rel="home" class="home-link"> {{ meta.title }} </a>
   </div>
-
   <div class="top-bar"></div>
 </header>
-
-<script type="module">
-  import { startAnimation } from '/js/dots.js'
-
-  startAnimation()
-</script>
